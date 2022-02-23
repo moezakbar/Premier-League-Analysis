@@ -1,13 +1,4 @@
-"""
-    CISC-121 2022W
 
-    Name: Abdul Moez Akbar
-    Student Number: 20258267
-    Email: 20ama12@queensu.ca
-
-    I confirm that this assignment solution is my own work and conforms to
-    Queen’s standards of Academic Integrity
-"""
 #Create a list of all the alphabets
 alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
              'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
