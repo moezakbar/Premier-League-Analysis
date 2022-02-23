@@ -1,8 +1,8 @@
 """
-Name: Abdul Moez Akbar
-Student ID: 202058267
 Date: 3rd November'2021
-This program is a game of Bingo. It creates a 5x5 card for each player and calls random items from a list.
+This program is a game of Bingo. It creates a 5x5 card for each player and calls random items from a list. 
+If the random item is in the 5x5 card of a player, it replaces it with 'FOUND'. When one of the three
+goals specified before the game begin is completed, the game stops and the winner's name is displayed
 """
 
 
