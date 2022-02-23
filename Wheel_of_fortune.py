@@ -3,8 +3,6 @@ This implements a simplified version of Wheel of Fortune. The computer chooses a
 from a list of words and the user guesses letters until they have filled in all the letters 
 in the word or have guessed incorrectly 5 times.
 
-Author: Abdul Moez Akbar 
-Student Number: 20258267 
 Date:  Oct'28, 2021
 """
 
