@@ -1,12 +1,7 @@
 """
-    CISC-121 2022W
-
-    Name: Abdul Moez Akbar
-    Student Number: 20258267
-    Email: 20ama12@queensu.ca
-
-    I confirm that this assignment solution is my own work and conforms to
-    Queen’s standards of Academic Integrity
+In this assignment we use a basic measure of similarity to define a relationship on a set of books. 
+For each book in the set, we determine which of the other books is most similar to it.
+The similarity measure that we will use is the jaccard similarity.
 """
 
 #import all the functions that will be used
