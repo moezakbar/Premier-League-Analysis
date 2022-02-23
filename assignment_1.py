@@ -1,3 +1,9 @@
+"""
+This is a program that will prompt the user for some text and a keyword, and then display the Vigenère encrypted form of the text on the screen.
+The Vigenère Cypher is an improvement on the much older Caesar Cypher, in which each letter of a message (or "plaintext") is replaced
+by the letter that is offset from the original letter by a fixed amount.
+"""
+
 
 #Create a list of all the alphabets
 alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
