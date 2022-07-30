@@ -2,7 +2,7 @@
 In this assignment we use a basic measure of similarity to define a relationship on a set of books. 
 For each book in the set, we determine which of the other books is most similar to it.
 The similarity measure that we will use is the jaccard similarity.
-The chosen books have been bundled together for your convenience into the file Books.zip
+The chosen books have been bundled together for your convenience into the file Books used for assignment2.zip
 You will need to download and unzip this file. The file is uploaded in the repository.
 A file containing stopwords is also uploaded in the repository. Stopwords are removed from the 
 books before the jaccard similarity is applied to them.
