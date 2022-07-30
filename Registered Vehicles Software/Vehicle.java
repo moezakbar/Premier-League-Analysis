@@ -1,6 +1,5 @@
 /*
 Name: Abdul Moez Akbar
-Student number: 20258267
 Date: 29th July'2022
  */
 package Assignment2;
