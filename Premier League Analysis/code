@@ -1,0 +1,25 @@
+SELECT Season_End_Year,Date, Home,Away,HomeGoals,AwayGoals,FTR,(HomeGoals+AwayGoals) AS TotalGoals
+FROM PremierLeague.eplmatches
+ORDER BY TotalGoals DESC;
+
+SELECT games.team, COUNT(games.FTR) AS wins
+FROM (
+	SELECT Home as team, FTR
+	FROM PremierLeague.eplmatches
+	WHERE FTR = 'H' UNION ALL
+	SELECT Away as team, FTR
+	FROM PremierLeague.eplmatches
+	WHERE FTR = 'A'
+    ) AS games
+GROUP BY team
+ORDER BY wins DESC;
+
+Select Home AS HomeTeam, COUNT(HomeGoals) AS HomeGoals
+FROM PremierLeague.eplmatches
+GROUP BY HomeTeam
+ORDER BY HomeGoals DESC;
+
+Select Away AS AwayTeam, COUNT(AwayGoals) AS AwayGoals
+FROM PremierLeague.eplmatches
+GROUP BY AwayTeam
+ORDER BY AwayGoals DESC;
